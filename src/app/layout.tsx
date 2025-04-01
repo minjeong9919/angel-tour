@@ -21,8 +21,8 @@ const BlackHanSans = Black_Han_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Angel Tour - 엔젤투어",
-  description: "미얀마 해외골프 여행사 엔젤투어입니다.",
+  title: "Angel Tour - 천사투어",
+  description: "미얀마 해외골프 여행사 천사투어입니다.",
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} antialiased`}
       >
         <Header />
-        {children}
+        <div className='pt-20'>{children}</div>
       </body>
     </html>
   );
