@@ -7,7 +7,7 @@ const NAV_TEXT: string[] = ["천사투어", "미얀마", "프로그램", "견적
 
 export const Header = () => {
   return (
-    <header className='w-[80vw] h-20 flex justify-between items-center gap-10 fixed px-10 mx-[10vw]'>
+    <header className='w-[100vw] h-20 flex justify-between items-center gap-10 fixed px-10 px-[10vw] z-1000 bg-white'>
       <Link
         className='cursor-pointer flex items-center gap-2 text-3xl'
         href='/'

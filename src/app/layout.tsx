@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Black_Han_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Black_Han_Sans, Jua } from "next/font/google";
 import { Header } from "./_components/Header";
 
 import "./globals.css";
@@ -12,6 +12,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const JuaRegular = Jua({
+  variable: "--font-jua",
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 const BlackHanSans = Black_Han_Sans({
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} ${JuaRegular.variable} antialiased`}
       >
         <Header />
         <div className='pt-20'>{children}</div>

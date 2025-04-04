@@ -1,13 +1,11 @@
 import { Carousel } from "./_components/Carousel";
-import Arrow from "@/app/_assets/icons/arrow.svg";
+import { Recommendataion } from "./_components/Recommendataion";
 
 export default function Home() {
   return (
-    <div className=''>
+    <main className='flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
       <Carousel />
-      <main className='flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
-        <Arrow width={30} fill='white' />
-      </main>
-    </div>
+      <Recommendataion />
+    </main>
   );
 }

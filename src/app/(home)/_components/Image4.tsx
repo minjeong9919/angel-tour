@@ -9,7 +9,7 @@ export const Image4 = ({ imageNum }: { imageNum: number }) => {
           imageNum === 2 ? "animate-slide-to-left" : ""
         } z-1 absolute right-0 w-[100%] h-[100%]`}
       >
-        <div className='w-[100%] h-[100%] absolute opacity-50 bg-black clip-custom-polygon-right right-0 ' />
+        <div className='w-[100%] h-[100%] absolute bg-black/50  bg-black clip-custom-polygon-right right-0 ' />
       </div>
       <Image
         src={MainImage4}

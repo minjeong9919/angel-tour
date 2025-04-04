@@ -6,11 +6,22 @@
 }
 
 @theme inline {
+  /* 색상 */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #ff8000;
+  --color-primary-100: #ffe5cc;
+  --color-primary-200: #ffcc99;
+  --color-primary-300: #ffb266;
+  --color-primary-400: #ff9933;
+
+  /* 폰트 */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-hans: var(--font-black-han-sans);
+  --font-jua: var(--font-jua);
+
+  /* 애니메이션 */
   --animate-flicker: flicker 4s infinite both;
   --animate-slide-to-left: slide-to-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
@@ -23,6 +34,10 @@
 
 .clip-custom-polygon-left {
   clip-path: polygon(0 0, 80% 0, 70% 100%, 0 100%);
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
 }
 
 @keyframes flicker {
@@ -54,8 +69,8 @@
     bottom: 0%;
   }
   100% {
-    right: 30%;
-    bottom: 30%;
+    right: 20%;
+    bottom: 40%;
   }
 }
 
