@@ -1,5 +1,4 @@
-import Logo from "@/app/_assets/icon-no-background.png";
-import Image from "next/image";
+import Logo from "@/app/_assets/icons/icon-no-background.svg";
 import Link from "next/link";
 
 const NAV_COMMON_CLASSNAME =
@@ -8,12 +7,12 @@ const NAV_TEXT: string[] = ["천사투어", "미얀마", "프로그램", "견적
 
 export const Header = () => {
   return (
-    <header className='w-[80vw] flex justify-between items-center gap-10 fixed px-10 mx-[10vw]'>
+    <header className='w-[80vw] h-20 flex justify-between items-center gap-10 fixed px-10 mx-[10vw]'>
       <Link
         className='cursor-pointer flex items-center gap-2 text-3xl'
         href='/'
       >
-        <Image src={Logo} alt='로고' width={70} height={70} />
+        <Logo width={70} height={70} />
         <span className={`font-hans mt-1`}>천사투어</span>
       </Link>
       <nav className='flex gap-10 '>

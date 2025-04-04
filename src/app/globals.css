@@ -11,7 +11,18 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-hans: var(--font-black-han-sans);
-  --animate-flicker: flicker 4s linear both;
+  --animate-flicker: flicker 4s infinite both;
+  --animate-slide-to-left: slide-to-left 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  --animate-airplane-moving: airplane-moving 2.5s both;
+}
+
+.clip-custom-polygon-right {
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 20% 100%);
+}
+
+.clip-custom-polygon-left {
+  clip-path: polygon(0 0, 80% 0, 70% 100%, 0 100%);
 }
 
 @keyframes flicker {
@@ -34,6 +45,28 @@
   80% {
     opacity: 0;
     text-shadow: none;
+  }
+}
+
+@keyframes airplane-moving {
+  0% {
+    right: 40%;
+    bottom: 0%;
+  }
+  100% {
+    right: 30%;
+    bottom: 30%;
+  }
+}
+
+@keyframes slide-to-left {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
