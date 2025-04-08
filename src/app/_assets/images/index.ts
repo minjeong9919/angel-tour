@@ -14,6 +14,7 @@ import YANGON3 from "@/app/_assets/images/yangon3.jpeg";
 import OKKAKA1 from "@/app/_assets/images/okkala1.jpeg";
 import OKKAKA2 from "@/app/_assets/images/okkala2.jpeg";
 import OKKAKA3 from "@/app/_assets/images/okkala3.jpeg";
+import DAY1MAP from "@/app/_assets/images/day1map.png";
 
 export {
   MAIN1,
@@ -32,4 +33,5 @@ export {
   OKKAKA1,
   OKKAKA2,
   OKKAKA3,
+  DAY1MAP,
 };

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SCHEDULE } from "@/app/constants";
 
 export const ScheduleItem = ({ day }: { day: number }) => {
-  const dayString = day === 1 ? "first" : day === 5 ? "last" : "other";
+  const dayString = day === 1 ? "first" : day === 6 ? "last" : "other";
   return (
     <ul className='relative pb-5 mt-10'>
       <div className='w-[3px] h-[calc(100%-70px)] bg-gray-200 absolute top-[20px] left-[2.04px] z-0' />

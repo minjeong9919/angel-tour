@@ -37,9 +37,17 @@ export const Schedule = () => {
         />
       </div>
       <div className='font-jua text-lg mb-10'>
-        <h3 className='bg-gray-200 p-2 rounded-[2px]'>4일차</h3>
-        <FlightCard departure='미얀마' arrive='인천(ICN)' time='04시간 30분' />
+        <h3 className='bg-gray-200 p-2 rounded-[2px]'>5일차</h3>
         <ScheduleItem day={5} />
+        <AdditionalInfo
+          hotel='멜리아 / 세도나 호텔 (2인 1실)'
+          breakfast='호텔식'
+        />
+      </div>
+      <div className='font-jua text-lg mb-10'>
+        <h3 className='bg-gray-200 p-2 rounded-[2px]'>6일차</h3>
+        <FlightCard departure='미얀마' arrive='인천(ICN)' time='04시간 30분' />
+        <ScheduleItem day={6} />
         <AdditionalInfo hotel='멜리아 / 세도나 호텔 (2인 1실)' />
       </div>
       <span>

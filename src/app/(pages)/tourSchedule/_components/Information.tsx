@@ -1,6 +1,6 @@
 export const Information = () => {
   return (
-    <section className='mt-20 gap-5 w-[100%]'>
+    <section className='gap-5 w-[100%]'>
       <h2 className='text-xl font-bold mb-3 border-b-2 pb-3'>여행 정보</h2>
       <div className='min-w-50 flex gap-7 border-b-1 border-gray-300 py-2'>
         <span className='font-bold min-w-20'>✈️ 일정</span>

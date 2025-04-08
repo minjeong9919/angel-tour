@@ -4,6 +4,7 @@ import { Information } from "./_components/Information";
 import { Includes } from "./_components/Includes";
 import { Note } from "./_components/Note";
 import { Schedule } from "./_components/Schedule";
+import { Sidebar } from "./_components/Sidebar";
 
 export default function TourSchedule() {
   return (
@@ -29,10 +30,17 @@ export default function TourSchedule() {
           </div>
         </div>
       </section>
-      <Information />
-      <Includes />
-      <Schedule />
-      <Note />
+      <section className='pt-20'>
+        <Information />
+        <Includes />
+        <div className='flex gap-10'>
+          <div>
+            <Schedule />
+            <Note />
+          </div>
+          <Sidebar />
+        </div>
+      </section>
     </main>
   );
 }
