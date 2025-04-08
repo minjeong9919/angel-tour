@@ -92,3 +92,11 @@ export const SCHEDULE: ScheduleType = {
     { todo: "라운딩 후, 호텔 휴식 및 자유시간" },
   ],
 };
+
+const CCinfo = {
+  YCDC: {
+    difficulty: "★★★★☆",
+    explanation:
+      "미얀마에서 유일하게 36홀을 보유한 골프장으로,평지와 업다운이 적당해 편안한 라운딩을 제공합니다.",
+  },
+};

@@ -15,6 +15,8 @@ import OKKAKA1 from "@/app/_assets/images/okkala1.jpeg";
 import OKKAKA2 from "@/app/_assets/images/okkala2.jpeg";
 import OKKAKA3 from "@/app/_assets/images/okkala3.jpeg";
 import DAY1MAP from "@/app/_assets/images/day1map.png";
+import DAY6MAP from "@/app/_assets/images/day6map.png";
+import CCMAP from "@/app/_assets/images/ccMap.png";
 
 export {
   MAIN1,
@@ -34,4 +36,6 @@ export {
   OKKAKA2,
   OKKAKA3,
   DAY1MAP,
+  DAY6MAP,
+  CCMAP,
 };
