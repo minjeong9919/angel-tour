@@ -42,7 +42,7 @@ export const Recommendataion = () => {
         {DATA.map(({ title, image, content }, index) => (
           <li
             key={title}
-            className='w-[22%] max-w-[400px] px-5 py-10 relative shadow-2xl rounded-lg hover:scale-[1.05] transition duration-400 cursor-pointer'
+            className='w-[23%] max-w-[350px] px-5 py-10 relative shadow-2xl rounded-lg '
           >
             <div className='absolute left-[-20] top-[-20] bg-primary text-white text-2xl w-[50px] h-[50px] flex-center rounded-lg'>
               {index + 1}

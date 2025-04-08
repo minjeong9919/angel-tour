@@ -15,6 +15,9 @@
   --color-primary-300: #ffb266;
   --color-primary-400: #ff9933;
 
+  /* 그림자 */
+  --shadow-custom-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.2);
+
   /* 폰트 */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
