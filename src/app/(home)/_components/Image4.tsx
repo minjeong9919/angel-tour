@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MainImage4 from "@/app/_assets/images/main4.jpeg";
+import { MAIN4 } from "@/app/_assets/images";
 
 export const Image4 = ({ imageNum }: { imageNum: number }) => {
   return (
@@ -12,7 +12,7 @@ export const Image4 = ({ imageNum }: { imageNum: number }) => {
         <div className='w-[100%] h-[100%] absolute bg-black/50  bg-black clip-custom-polygon-right right-0 ' />
       </div>
       <Image
-        src={MainImage4}
+        src={MAIN4}
         alt='메인이미지1'
         className='w-screen absolute '
         layout='fill'

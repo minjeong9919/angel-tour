@@ -1,12 +1,12 @@
 import Image from "next/image";
-import MainImage from "@/app/_assets/images/main1.jpg";
+import { MAIN1 } from "@/app/_assets/images";
 import Airplane from "@/app/_assets/icons/airplane.svg";
 
 export const Image1 = ({ imageNum }: { imageNum: number }) => {
   return (
     <figure className='relative min-w-screen h-[100%] flex flex-col justify-center items-center'>
       <Image
-        src={MainImage}
+        src={MAIN1}
         alt='메인이미지1'
         className='w-screen absolute brightness-40'
         layout='fill'
