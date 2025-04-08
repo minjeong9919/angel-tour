@@ -19,7 +19,7 @@ const NAV_TEXT: NavObject[] = [
     link: "/",
   },
   {
-    title: "프로그램",
+    title: "여행일정",
     link: "/tourSchedule",
   },
   {

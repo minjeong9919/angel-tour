@@ -30,12 +30,21 @@ export const Schedule = () => {
       </div>
       <div className='font-jua text-lg mb-20'>
         <h3 className='bg-gray-200 p-2 rounded-[2px]'>4일차</h3>
-        <ScheduleItem day={3} />
+        <ScheduleItem day={4} />
         <AdditionalInfo
           hotel='멜리아 / 세도나 호텔 (2인 1실)'
           breakfast='호텔식'
         />
       </div>
+      <div className='font-jua text-lg mb-10'>
+        <h3 className='bg-gray-200 p-2 rounded-[2px]'>4일차</h3>
+        <FlightCard departure='미얀마' arrive='인천(ICN)' time='04시간 30분' />
+        <ScheduleItem day={5} />
+        <AdditionalInfo hotel='멜리아 / 세도나 호텔 (2인 1실)' />
+      </div>
+      <span>
+        * 상기 일정은 항공 및 현지 사정에 의해 다소 변경될 수 있습니다.
+      </span>
     </section>
   );
 };
