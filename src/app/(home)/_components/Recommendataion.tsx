@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Money from "@/app/_assets/icons/money.svg";
 import Trip from "@/app/_assets/icons/trip.svg";
 import Golf from "@/app/_assets/icons/golf.svg";
@@ -8,12 +8,8 @@ import Language from "@/app/_assets/icons/language.svg";
 import { DATA } from "@/app/constants";
 
 export const Recommendataion = () => {
-  const [hoveredCard, setHoveredCard] = useState<number>(-1);
-  const handleCardHover = (id: number) => {
-    setHoveredCard(id);
-  };
   return (
-    <section className='w-screen p-20 font-jua'>
+    <section className='font-jua'>
       <h1 className='text-4xl text-[#ff8000] mb-5'>
         이런 분들에게 추천드려요!
       </h1>
@@ -25,11 +21,7 @@ export const Recommendataion = () => {
         {DATA.map(({ title, image, content }, index) => (
           <li
             key={title}
-            className={`w-[23%] max-w-[350px] px-5 py-10 relative shadow-2xl rounded-lg ${
-              hoveredCard === index ? "animate-wobble-hor-bottom" : ""
-            }`}
-            onMouseEnter={() => handleCardHover(index)}
-            onMouseLeave={() => handleCardHover(-1)}
+            className={`w-[23%] max-w-[350px] px-5 py-10 relative shadow-2xl rounded-lg`}
           >
             <div className='absolute left-[-10] top-[-20] bg-primary text-white text-2xl w-[40px] h-[40px] flex-center rounded-lg'>
               {index + 1}

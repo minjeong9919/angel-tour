@@ -14,6 +14,31 @@ import {
   OKKAKA2,
 } from "./_assets/images";
 
+export const DATA = [
+  {
+    title: `가성비 좋은 골프장에서-골프치고 싶으신 분`,
+    content:
+      "동남아에서 가장 저렴한-라운딩비와 캐디피로 즐거움이-2배가 됩니다. ",
+    image: "money",
+  },
+  {
+    title: "색다른 해외 골프 여행지를-찾고 계신 분",
+    content: "5성급 호텔에서 럭셔리하고-편안한 골프를 경험해보세요.",
+    image: "trip",
+  },
+  {
+    content: "단독 캐디로 편안하게-골프를 즐기세요.",
+    title: "1인 1캐디 골프투어를-희망하고 계신 분",
+    image: "golf",
+  },
+  {
+    title: "언어 때문에 해외여행을-망설이고 계신 분",
+    content:
+      "한국어 가능한 가이드가-일정 내내 불편하지 않도록-여러분과 함께 합니다. ",
+    image: "language",
+  },
+];
+
 interface ScheduleItemType {
   todo: string;
   ref?: {
@@ -91,12 +116,4 @@ export const SCHEDULE: ScheduleType = {
     },
     { todo: "라운딩 후, 호텔 휴식 및 자유시간" },
   ],
-};
-
-const CCinfo = {
-  YCDC: {
-    difficulty: "★★★★☆",
-    explanation:
-      "미얀마에서 유일하게 36홀을 보유한 골프장으로,평지와 업다운이 적당해 편안한 라운딩을 제공합니다.",
-  },
 };

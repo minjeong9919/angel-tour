@@ -17,6 +17,10 @@ import OKKAKA3 from "@/app/_assets/images/okkala3.jpeg";
 import DAY1MAP from "@/app/_assets/images/day1map.png";
 import DAY6MAP from "@/app/_assets/images/day6map.png";
 import CCMAP from "@/app/_assets/images/ccMap.png";
+import MYANMAR1 from "@/app/_assets/images/myanmar1.jpg";
+import MYANMAR2 from "@/app/_assets/images/myanmar2.jpg";
+import MYANMAR3 from "@/app/_assets/images/myanmar3.jpg";
+import MYANMAR4 from "@/app/_assets/images/myanmar4.jpg";
 
 export {
   MAIN1,
@@ -38,4 +42,8 @@ export {
   DAY1MAP,
   DAY6MAP,
   CCMAP,
+  MYANMAR1,
+  MYANMAR2,
+  MYANMAR3,
+  MYANMAR4,
 };

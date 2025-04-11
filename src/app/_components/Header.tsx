@@ -16,7 +16,7 @@ const NAV_TEXT: NavObject[] = [
   },
   {
     title: "미얀마",
-    link: "/",
+    link: "/aboutMyanmar",
   },
   {
     title: "여행일정",
@@ -30,7 +30,7 @@ const NAV_TEXT: NavObject[] = [
 
 export const Header = () => {
   return (
-    <header className='w-[100vw] h-20 flex justify-between items-center gap-10 fixed px-10 px-[10vw] z-1000 bg-white'>
+    <header className='w-[100vw] h-20 flex justify-between items-center gap-10 fixed px-20 z-1000 bg-white'>
       <Link
         className='cursor-pointer flex items-center gap-2 text-3xl'
         href='/'
