@@ -11,11 +11,11 @@ interface NavObject {
 
 const NAV_TEXT: NavObject[] = [
   {
-    title: "천사투어",
-    link: "/",
+    title: "천사투어 소개",
+    link: "/aboutAngelTour",
   },
   {
-    title: "미얀마",
+    title: "미얀마 소개",
     link: "/aboutMyanmar",
   },
   {

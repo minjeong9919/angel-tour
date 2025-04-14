@@ -3,11 +3,13 @@ import { useEffect, useRef } from "react";
 interface PropsType {
   observeCallback: () => void;
   unobserveCallback?: () => void;
+  threshold?: number;
 }
 
 export function useIntersectionObserver({
   observeCallback,
   unobserveCallback,
+  threshold = 1,
 }: PropsType) {
   const target = useRef<HTMLDivElement | null>(null);
 
@@ -22,7 +24,7 @@ export function useIntersectionObserver({
           }
         });
       },
-      { threshold: 0.01 }
+      { threshold: threshold }
     );
     const currentTarget = target.current;
 
@@ -35,6 +37,6 @@ export function useIntersectionObserver({
     return () => {
       observer.unobserve(currentTarget);
     };
-  }, [target, observeCallback, unobserveCallback]);
+  }, [target, observeCallback, unobserveCallback, threshold]);
   return { target };
 }

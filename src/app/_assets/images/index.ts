@@ -21,6 +21,9 @@ import MYANMAR1 from "@/app/_assets/images/myanmar1.jpg";
 import MYANMAR2 from "@/app/_assets/images/myanmar2.jpg";
 import MYANMAR3 from "@/app/_assets/images/myanmar3.jpg";
 import MYANMAR4 from "@/app/_assets/images/myanmar4.jpg";
+import ANGELTOUR1 from "@/app/_assets/images/angelTour1.png";
+import ANGELTOUR2 from "@/app/_assets/images/angelTour2.jpeg";
+import ANGELTOUR3 from "@/app/_assets/images/angelTour3.png";
 
 export {
   MAIN1,
@@ -46,4 +49,7 @@ export {
   MYANMAR2,
   MYANMAR3,
   MYANMAR4,
+  ANGELTOUR1,
+  ANGELTOUR2,
+  ANGELTOUR3,
 };

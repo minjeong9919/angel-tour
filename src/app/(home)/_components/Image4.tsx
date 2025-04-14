@@ -15,9 +15,7 @@ export const Image4 = ({ imageNum }: { imageNum: number }) => {
         src={MAIN4}
         alt='메인이미지1'
         className='w-screen absolute '
-        layout='fill'
-        objectFit='cover'
-        objectPosition='bottom'
+        fill
       />
       <figcaption>메인 이미지1</figcaption>
       <div

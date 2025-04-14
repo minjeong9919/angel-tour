@@ -9,9 +9,7 @@ export const Image1 = ({ imageNum }: { imageNum: number }) => {
         src={MAIN1}
         alt='메인이미지1'
         className='w-screen absolute brightness-40'
-        layout='fill'
-        objectFit='cover'
-        objectPosition='bottom'
+        fill
       />
       <Airplane
         className={`absolute ${

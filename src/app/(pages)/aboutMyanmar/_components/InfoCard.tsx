@@ -25,6 +25,7 @@ export const InfoCard = ({ id, image, title, content }: InfoCardPropsType) => {
   const { target } = useIntersectionObserver({
     observeCallback: handleObserver,
     unobserveCallback: handleUnObserver,
+    threshold: 0.1,
   });
 
   return (
