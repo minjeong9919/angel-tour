@@ -24,6 +24,12 @@ import MYANMAR4 from "@/app/_assets/images/myanmar4.jpg";
 import ANGELTOUR1 from "@/app/_assets/images/angelTour1.png";
 import ANGELTOUR2 from "@/app/_assets/images/angelTour2.jpeg";
 import ANGELTOUR3 from "@/app/_assets/images/angelTour3.png";
+import ANGELPOINT1 from "@/app/_assets/images/angelPoint1.jpeg";
+import ANGELPOINT2 from "@/app/_assets/images/angelPoint2.jpeg";
+import ANGELPOINT3 from "@/app/_assets/images/angelPoint3.jpeg";
+import ANGELPOINT4 from "@/app/_assets/images/angelPoint4.jpeg";
+import ANGELPOINT5 from "@/app/_assets/images/angelPoint5.jpg";
+import ANGELPOINT6 from "@/app/_assets/images/angelPoint6.jpg";
 
 export {
   MAIN1,
@@ -52,4 +58,10 @@ export {
   ANGELTOUR1,
   ANGELTOUR2,
   ANGELTOUR3,
+  ANGELPOINT1,
+  ANGELPOINT2,
+  ANGELPOINT3,
+  ANGELPOINT4,
+  ANGELPOINT5,
+  ANGELPOINT6,
 };

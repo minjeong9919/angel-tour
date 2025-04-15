@@ -1,5 +1,3 @@
-"use client";
-
 import { Fragment } from "react";
 import Money from "@/app/_assets/icons/money.svg";
 import Trip from "@/app/_assets/icons/trip.svg";
@@ -9,11 +7,11 @@ import { DATA } from "@/app/constants";
 
 export const Recommendataion = () => {
   return (
-    <section className='font-jua'>
-      <h1 className='text-4xl text-[#ff8000] mb-5'>
+    <section>
+      <h1 className='text-4xl text-[#ff8000] mb-5 font-bold'>
         이런 분들에게 추천드려요!
       </h1>
-      <h2 className='text-xl mb-15'>
+      <h2 className='text-xl mb-15 font-semibold'>
         천혜의 자연환경과 아름다운 풍경, 그리고 골프 코스까지 한번에 즐길 수
         있는 미얀마 골프 투어입니다.
       </h2>
@@ -32,7 +30,7 @@ export const Recommendataion = () => {
               {image === "golf" && <Golf />}
               {image === "language" && <Language />}
             </figure>
-            <h3 className='text-2xl text-primary mb-5 text-center'>
+            <h3 className='text-2xl text-primary mb-5 text-center font-bold'>
               {title.split("-").map((val) => (
                 <Fragment key={val}>
                   {val}
@@ -40,7 +38,7 @@ export const Recommendataion = () => {
                 </Fragment>
               ))}
             </h3>
-            <p className='text-xl text-gray-500 break-normal text-center'>
+            <p className='text-xl text-gray-500 break-normal text-center font-semibold'>
               {content.split("-").map((val) => (
                 <Fragment key={val}>
                   {val}

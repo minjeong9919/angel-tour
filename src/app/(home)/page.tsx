@@ -1,6 +1,7 @@
 import { Carousel } from "./_components/Carousel";
 import { CheckPoint } from "./_components/CheckPoint";
 import { Recommendataion } from "./_components/Recommendataion";
+import { QnA } from "./_components/QnA";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className='w-[100vw] p-20 flex flex-col gap-50'>
         <Recommendataion />
         <CheckPoint />
+        <QnA />
       </div>
     </main>
   );
