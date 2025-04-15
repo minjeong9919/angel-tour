@@ -9,7 +9,7 @@ export const QnA = () => {
         </strong>
         자주 묻는 질문
       </h1>
-      <h2 className='text-xl mb-10 font-bold text-gray-400'>
+      <h2 className='text-xl mb-10 text-gray-400'>
         궁금한 사항을 자주 묻는 질문입니다. 더 궁금하신 내용은 밴드나 카톡을
         통해 해주세요.
       </h2>
