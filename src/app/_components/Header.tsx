@@ -22,10 +22,6 @@ const NAV_TEXT: NavObject[] = [
     title: "여행일정",
     link: "/tourSchedule",
   },
-  {
-    title: "견적문의",
-    link: "/",
-  },
 ];
 
 export const Header = () => {

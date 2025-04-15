@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
 import { ANGELTOUR1, ANGELTOUR2, ANGELTOUR3 } from "@/app/_assets/images";
 import { useIntersectionObserver } from "../../../../../utils/useIntersectionObserver";
 

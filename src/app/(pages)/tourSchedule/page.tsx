@@ -8,7 +8,7 @@ import { Sidebar } from "./_components/Sidebar";
 
 export default function TourSchedule() {
   return (
-    <main className='w-[90vw] mx-auto my-10'>
+    <main className='w-[70vw] mx-auto my-10'>
       <section className='flex gap-10'>
         <figure className='w-[40%] rounded-xl overflow-hidden'>
           <Image src={main1} alt='양곤 대표 이미지' />
@@ -33,8 +33,8 @@ export default function TourSchedule() {
       <section className='pt-20'>
         <Information />
         <Includes />
-        <div className='flex gap-10'>
-          <div>
+        <div className='flex gap-10 relative'>
+          <div className='flex-2'>
             <Schedule />
             <Note />
           </div>

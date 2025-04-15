@@ -12,7 +12,7 @@ export const FlightCard = ({
   time,
 }: FlightCardPropsType) => {
   return (
-    <div className='flex-center mt-10 pt-30 pb-10 bg-blue rounded-md shadow-custom-sm'>
+    <div className='flex-center mt-10 pt-30 pb-10 bg-blue rounded-md shadow-custom-sm w-[calc(100%-415px)]'>
       <div>{departure} 출발</div>
       <div className='flex-center w-[60%]'>
         <div className='w-3 h-3 bg-primary rounded-full' />
