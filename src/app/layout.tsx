@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Black_Han_Sans, Jua } from "next/font/google";
 import { Header } from "./_components/Header";
+import Script from "next/script";
 
 import "./globals.css";
+import { FixedFooter } from "./_components/FixedFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +44,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} ${JuaRegular.variable} antialiased`}
       >
         <Header />
+        <FixedFooter />
+        <Script
+          src='https://t1.kakaocdn.net/kakao_js_sdk/2.7.5/kakao.min.js'
+          integrity='sha384-dok87au0gKqJdxs7msEdBPNnKSRT+/mhTVzq+qOhcL464zXwvcrpjeWvyj1kCdq6'
+          crossOrigin='anonymous'
+          strategy='beforeInteractive'
+        ></Script>
         <div className='pt-20'>{children}</div>
       </body>
     </html>

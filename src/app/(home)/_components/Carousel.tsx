@@ -32,7 +32,6 @@ export const Carousel = () => {
   };
 
   useEffect(() => {
-    console.log(imageNum);
     if (imageNum === 3) {
       const timeout = setTimeout(() => {
         setTransition(false);

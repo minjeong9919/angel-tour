@@ -115,10 +115,16 @@ export default function AboutAngel() {
             가능합니다.
           </h1>
           <div className='flex-center mt-10 gap-20'>
-            <div className='h-[100%] bg-white z-1 shadow-2xl p-10 text-2xl rounded-lg'>
-              <h3 className='font-bold text-4xl mb-3'>상담 문의</h3>
-              대표: 박 재 완 <br />
-              연락처: 010.9954.3891
+            <div className='flex flex-col justify-between h-[100%] bg-white z-1 shadow-2xl p-10 text-2xl rounded-lg'>
+              <div>
+                <h3 className='font-bold text-4xl mb-3'>상담 문의</h3>
+                대표: 박 재 완 <br />
+                연락처: 010.9954.3891
+              </div>
+              <h5 className='text-xl text-primary'>
+                * 카카오톡으로 상담을 원하시는 분은 하단의 {"톡상담"} 메뉴를
+                이용해주세요.
+              </h5>
             </div>
             <div className='flex flex-col gap-10'>
               <Link
