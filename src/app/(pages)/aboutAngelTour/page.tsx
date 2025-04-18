@@ -1,6 +1,7 @@
+import Link from "next/link";
 import ICON from "@/app/_assets/icons/icon-no-background.svg";
-import KAKAO from "@/app/_assets/icons/kakao.svg";
 import NAVER from "@/app/_assets/icons/naver-band.svg";
+import KAKAO from "@/app/_assets/icons/kakao.svg";
 import { ImageWrapper } from "./_components/ImageWrapper";
 
 export default function AboutAngel() {
@@ -120,14 +121,23 @@ export default function AboutAngel() {
               연락처: 010.9954.3891
             </div>
             <div className='flex flex-col gap-10'>
-              <button className='bg-[#F7E600] z-1 shadow-2xl p-10 text-2xl rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-3'>
+              <Link
+                target='_blank'
+                href='https://open.kakao.com/o/gsqdO6nh'
+                className='bg-[#F7E600] z-1 shadow-2xl p-10 text-2xl rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-3 cursor-pointer'
+              >
                 <KAKAO width={30} />
                 카카오톡 단톡방 참여 {">"}
-              </button>
-              <button className='bg-[#2FB14A] z-1 shadow-2xl p-10 text-2xl rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-3'>
+              </Link>
+
+              <Link
+                target='_blank'
+                href='https://www.band.us/band/68913058'
+                className='bg-[#2FB14A] z-1 shadow-2xl p-10 text-2xl rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-3 cursor-pointer'
+              >
                 <NAVER width={30} height={30} />
                 네이버 밴드 바로가기 {">"}
-              </button>
+              </Link>
             </div>
           </div>
         </div>
