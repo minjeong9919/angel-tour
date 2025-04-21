@@ -23,7 +23,7 @@ import MYANMAR3 from "@/app/_assets/images/myanmar3.jpg";
 import MYANMAR4 from "@/app/_assets/images/myanmar4.jpg";
 import ANGELTOUR1 from "@/app/_assets/images/angelTour1.png";
 import ANGELTOUR2 from "@/app/_assets/images/angelTour2.jpeg";
-import ANGELTOUR3 from "@/app/_assets/images/angelTour3.png";
+import ANGELTOUR3 from "@/app/_assets/images/angelTour3.jpeg";
 import ANGELPOINT1 from "@/app/_assets/images/angelPoint1.jpeg";
 import ANGELPOINT2 from "@/app/_assets/images/angelPoint2.jpeg";
 import ANGELPOINT3 from "@/app/_assets/images/angelPoint3.jpeg";

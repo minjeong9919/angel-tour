@@ -59,8 +59,8 @@ export default function AboutAngel() {
               단체방을 통해 여행 참여자들과 관리자까지 활발히 소통하고 있습니다.
             </p>
           </div>
-          <div className='flex-center bg-primary-100 my-10 py-15 px-20 gap-10 w-[90%] rounded-lg'>
-            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[200px] shadow-2xl'>
+          <div className='flex-center bg-primary-100 my-10 py-15 px-20 gap-10 w-[90%] rounded-lg h-max'>
+            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[100%] shadow-2xl'>
               <h2 className='text-2xl text-primary font-black mb-3'>
                 여행 전에는
               </h2>
@@ -74,7 +74,7 @@ export default function AboutAngel() {
                 </li>
               </ul>
             </div>
-            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[200px] shadow-2xl'>
+            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[100%] shadow-2xl'>
               <h2 className='text-2xl text-primary font-black mb-3'>
                 여행 중에는
               </h2>
@@ -89,7 +89,7 @@ export default function AboutAngel() {
                 </li>
               </ul>
             </div>
-            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[200px] shadow-2xl'>
+            <div className='bg-white rounded-lg p-5 bg-white z-1 w-[25%] h-[100%] shadow-2xl'>
               <h2 className='text-2xl text-primary font-black mb-3'>
                 여행 후에는
               </h2>

@@ -17,7 +17,7 @@ export const ScheduleItem = ({ day }: { day: number }) => {
             <div className='flex flex-col gap-2'>
               {schedule.ref.map((ref) => (
                 <div
-                  className='w-max ml-8 border border-gray-300 rounded-sm p-7'
+                  className='w-[calc(99%-420px)] ml-8 border border-gray-300 rounded-sm p-7'
                   key={ref.name}
                 >
                   <h5 className='text-xl mb-5'>{ref.name}</h5>
