@@ -34,7 +34,7 @@ export const InfoCard = ({ id, image, title, content }: InfoCardPropsType) => {
       className={`${isObserving ? "animate-scale-in" : "animate-scale-out"}`}
     >
       {id % 2 === 1 ? (
-        <div className='w-[100vw] min-h-[100%] pt-60 pb-40 px-10 flex-col bg-white relative'>
+        <div className='w-[100vw] min-h-[100%] pt-60 pb-40 px-30 flex-col bg-white relative'>
           <div
             className={`absolute right-0 top-0 w-[60%] h-[90vh] bg-gradient-to-r from-white from-20% to white to-100% z-1`}
           />
@@ -49,7 +49,7 @@ export const InfoCard = ({ id, image, title, content }: InfoCardPropsType) => {
           </div>
         </div>
       ) : (
-        <div className='w-[100vw] h-[100%] pt-60 pb-40 px-10 flex-col  text-right bg-primary-50 relative'>
+        <div className='w-[100vw] h-[100%] pt-60 pb-40 px-30 flex-col  text-right bg-primary-50 relative'>
           <div
             className={`absolute left-0 top-0 w-[60%] h-[100%] bg-gradient-to-l from-primary-50 from-20% to white to-100% z-1`}
           />

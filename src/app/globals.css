@@ -42,6 +42,8 @@
     both;
   --animate-slide-in-blurred-top: slide-in-blurred-top 1s
     cubic-bezier(0.23, 1, 0.32, 1) both;
+  --animate-increase-width: increase-width 0.3s both;
+  --animate-decrease-width: decrease-width 0.3s both;
 }
 
 .clip-custom-polygon-right {
@@ -76,6 +78,17 @@
   80% {
     opacity: 0;
     text-shadow: none;
+  }
+}
+
+@keyframes airplane-moving {
+  0% {
+    right: 40%;
+    bottom: 0%;
+  }
+  100% {
+    right: 20%;
+    bottom: 40%;
   }
 }
 
@@ -162,6 +175,24 @@
     transform-origin: 50% 50%;
     filter: blur(0);
     opacity: 1;
+  }
+}
+
+@keyframes increase-width {
+  0% {
+    width: 50px;
+  }
+  100% {
+    width: 230px;
+  }
+}
+
+@keyframes decrease-width {
+  0% {
+    width: 230px;
+  }
+  100% {
+    width: 50px;
   }
 }
 
