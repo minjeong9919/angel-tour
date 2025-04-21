@@ -1,11 +1,15 @@
-import CHAT from "@/app/_assets/icons/chat.svg";
+"use client";
+
 import { useState } from "react";
+import CHAT from "@/app/_assets/icons/chat.svg";
 
 export const ChatButton = () => {
   const [hover, setHover] = useState(false);
   const [buttonText, setButtonText] = useState<string | null>(null);
   const handleClickChatButton = () => {
     const { Kakao } = window;
+
+    Kakao.init(process.env.NEXT_PUBLIC_KAKAO_JAVASCRIPT_APP_KEY);
 
     Kakao.Channel.chat({
       channelPublicId: process.env.NEXT_PUBLIC_KAKAO_KEY,
