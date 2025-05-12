@@ -11,7 +11,7 @@ export const Information = () => {
       <div className='flex gap-7 border-b-1 border-gray-300 py-2'>
         <span className='font-bold min-w-20'>💵 요금</span>
         <span>
-          인당 <strong>499,000원</strong> ( 최소 출발인원: <strong>2</strong>명
+          인당 <strong>599,000원</strong> ( 최소 출발인원: <strong>2</strong>명
           )
         </span>
       </div>

@@ -8,7 +8,7 @@ export const Schedule = () => {
       <h2 className='text-xl font-bold border-b-2 pb-3'>여행 일정</h2>
       <div className='font-jua text-lg mb-20'>
         <h3 className='bg-gray-200 p-2 rounded-[2px]'>1일차</h3>
-        <FlightCard departure='인천(ICN)' arrive='미얀마' time='04시간 30분' />
+        <FlightCard departure='인천(ICN)' arrive='미얀마' time='05시간 55분' />
         <ScheduleItem day={1} />
         <AdditionalInfo hotel='멜리아 / 세도나 호텔 (2인 1실)' />
       </div>
@@ -46,7 +46,7 @@ export const Schedule = () => {
       </div>
       <div className='font-jua text-lg mb-10'>
         <h3 className='bg-gray-200 p-2 rounded-[2px]'>6일차</h3>
-        <FlightCard departure='미얀마' arrive='인천(ICN)' time='04시간 30분' />
+        <FlightCard departure='미얀마' arrive='인천(ICN)' time='05시간 55분' />
         <ScheduleItem day={6} />
         <AdditionalInfo hotel='멜리아 / 세도나 호텔 (2인 1실)' />
       </div>

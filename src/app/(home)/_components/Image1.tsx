@@ -29,7 +29,7 @@ export const Image1 = ({ imageNum }: { imageNum: number }) => {
         <h3 className='text-3xl font-light font-hans text-[#ff8000] '>
           <strong className='text-5xl'>5</strong>박
           <strong className='text-5xl'> 6</strong>일<br />
-          <strong className='text-9xl'>499,000</strong> 원
+          <strong className='text-9xl'>599,000</strong> 원
         </h3>
       </div>
       {/* </div> */}

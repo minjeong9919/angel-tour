@@ -86,7 +86,7 @@ export const SCHEDULE: ScheduleType = {
   other: [
     { todo: "조식 후, 골프장으로 이동 (약 25분 소요)" },
     {
-      todo: "골프 18홀 라운딩 \n YCDC / 다곤 / 양곤 / 오클랑 CC 중 1곳",
+      todo: "골프 18홀 라운딩 \n YCDC / 다곤 / 양곤 / 오클라 CC 중 1곳",
       ref: [
         {
           name: "YCDC 36홀 CC",

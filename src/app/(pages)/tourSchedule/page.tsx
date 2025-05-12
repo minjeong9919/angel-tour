@@ -24,7 +24,7 @@ export default function TourSchedule() {
               여행 핵심 정보
             </button>
             <h4 className='text-right mt-5'>
-              1인당 <strong className='text-4xl'>499,900</strong>원 (왕복 항공료
+              1인당 <strong className='text-4xl'>599,900</strong>원 (왕복 항공료
               불포함)
             </h4>
           </div>

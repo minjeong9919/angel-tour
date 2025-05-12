@@ -28,7 +28,7 @@ export const Sidebar = () => {
           </ul>
           <h3 className='text-xl font-bold'>차량</h3>
           <ul className='list-[circle] ml-5 '>
-            <li>차량은 승합 도는 동일 조건 차량입니다.</li>
+            <li>차량은 승합 또는 동일 조건 차량입니다.</li>
             <li>1일(08시 ~ 18시) 기준입니다.</li>
             <li>
               18시 이후 운행 시 시간당 10,000원의 추가요금이 발생할 수 있습니다.
@@ -71,7 +71,7 @@ export const Sidebar = () => {
             뛰어나며 미얀마의 전통적인 골프 코스를 즐길 수 있습니다.
           </p>
           <h3 className='text-lg font-bold'>
-            오클랑 27홀 골프장 <span className='text-sm'>난이도: ★★★★☆</span>
+            오클라 27홀 골프장 <span className='text-sm'>난이도: ★★★★☆</span>
           </h3>
           <p className='bg-gray-200 p-3 rounded-md mb-2'>
             50년의 역사를 지닌 골프장으로, 긴 코스와 해저드가 많아 전략적인
@@ -102,7 +102,7 @@ export const Sidebar = () => {
           </ul>
           <h3 className='text-xl font-bold'>차량</h3>
           <ul className='list-[circle] ml-5 '>
-            <li>차량은 승합 도는 동일 조건 차량입니다.</li>
+            <li>차량은 승합 또는 동일 조건 차량입니다.</li>
             <li>1일(08시 ~ 18시) 기준입니다.</li>
             <li>
               18시 이후 운행 시 시간당 10,000원의 추가요금이 발생할 수 있습니다.
