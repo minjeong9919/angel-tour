@@ -63,7 +63,7 @@ export const Carousel = () => {
 
   return (
     <div
-      className={`w-[100vw] h-[400px] md:h-[600px] relative overflow-hidden mx-auto flex`}
+      className={`w-[100vw] h-[400px] md:h-[600px] xl:h-[700px] relative overflow-hidden mx-auto flex`}
     >
       <Arrow
         fill='white'

@@ -26,17 +26,23 @@ const NAV_TEXT: NavObject[] = [
 
 export const Header = () => {
   return (
-    <header className='w-[100vw] h-20 flex justify-between items-center gap-10 fixed px-20 z-1000 bg-white'>
+    <header className='w-[100vw] h-20 flex justify-between items-center fixed px-5 sm:px-7 lg:px-10 z-1000 bg-white'>
       <Link
-        className='cursor-pointer flex items-center gap-2 text-3xl'
+        className='cursor-pointer flex items-center gap-2 text-xl sm:text-2xl lg:text-3xl'
         href='/'
       >
-        <Logo width={70} height={70} />
-        <span className={`font-hans mt-1`}>천사투어</span>
+        <Logo width='70px' height='70px' />
+        <span className={`font-hans mt-1 hidden sm:block min-w-max`}>
+          천사투어
+        </span>
       </Link>
-      <nav className='flex gap-10 '>
+      <nav className='flex gap-5 sm:gap-7 lg:px-13'>
         {NAV_TEXT.map(({ title, link }) => (
-          <Link href={link} className='relative' key={title}>
+          <Link
+            href={link}
+            className='relative text-sm lg:text-base'
+            key={title}
+          >
             <span className={NAV_COMMON_CLASSNAME}>{title}</span>
           </Link>
         ))}
