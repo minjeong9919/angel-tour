@@ -63,18 +63,16 @@ export const Carousel = () => {
 
   return (
     <div
-      className={`w-[100vw] h-[600px] relative overflow-hidden mx-auto flex`}
+      className={`w-[100vw] h-[400px] md:h-[600px] relative overflow-hidden mx-auto flex`}
     >
       <Arrow
-        width={60}
         fill='white'
-        className='absolute z-10 top-[50%] right-[20px] cursor-pointer'
+        className='absolute z-10 top-[80%] sm:top-[50%] right-[20px] cursor-pointer w-[40px] md:w-[60px]'
         onClick={() => clickArrow("next")}
       />
       <Arrow
-        width={60}
         fill='white'
-        className='absolute z-10 top-[50%] left-[20px] rotate-180 cursor-pointer'
+        className='absolute z-10 top-[80%] sm:top-[50%] left-[20px] rotate-180 cursor-pointer w-[40px] md:w-[60px]'
         onClick={() => clickArrow("prev")}
       />
       <div

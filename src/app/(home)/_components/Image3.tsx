@@ -21,13 +21,14 @@ export const Image3 = ({ imageNum }: { imageNum: number }) => {
       <div
         className={`${
           imageNum === 1 ? "animate-slide-to-left" : ""
-        } text-white z-1 w-fit flex flex-col gap-7 h-[280px] text-left ml-25`}
+        } text-white z-1 w-fit flex flex-col gap-7 h-[200px] text-left ml-[35%] sm:ml-[30%]`}
       >
-        <h1 className='text-7xl font-extrabold mt-5'>초가성비 골프투어</h1>
-        <h6 className='text-2xl'>
-          YCDC, 양곤, 다곤 오클라 CC 포함된 코스
-          <br />
-          앤젤 투어와 합리적인 가격으로 여유롭게 골프를 즐기세요.
+        <h1 className='text-3xl md:text-5xl lg:text-7xl font-extrabold mt-5'>
+          초가성비 골프투어
+        </h1>
+        <h6 className='text-sm md:text-lg lg:text-xl'>
+          YCDC, 양곤, 다곤 오클라 CC 포함된 <br /> 코스 앤젤 투어와 합리적인
+          가격으로 <br /> 여유롭게 골프를 즐기세요.
         </h6>
       </div>
     </figure>

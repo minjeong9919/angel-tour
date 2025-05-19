@@ -5,9 +5,9 @@ import { QnA } from "./_components/QnA";
 
 export default function Home() {
   return (
-    <main className='flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
+    <main className='flex flex-col row-start-2 items-center sm:items-start'>
       <Carousel />
-      <div className='w-[100vw] p-20 flex flex-col gap-50'>
+      <div className='w-[100vw] p-7 xl:p-20 flex flex-col gap-20 md:gap-30 lg-gap-50'>
         <Recommendataion />
         <CheckPoint />
         <QnA />

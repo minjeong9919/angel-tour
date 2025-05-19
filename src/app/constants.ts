@@ -22,7 +22,7 @@ export const DATA = [
     image: "money",
   },
   {
-    title: "색다른 해외 골프 여행지를-찾고 계신 분",
+    title: "색다른 해외 골프-여행지를 찾고 계신 분",
     content: "5성급 호텔에서 럭셔리하고-편안한 골프를 경험해보세요.",
     image: "trip",
   },

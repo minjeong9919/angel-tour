@@ -83,18 +83,7 @@
 
 @keyframes airplane-moving {
   0% {
-    right: 40%;
-    bottom: 0%;
-  }
-  100% {
-    right: 20%;
-    bottom: 40%;
-  }
-}
-
-@keyframes airplane-moving {
-  0% {
-    right: 40%;
+    right: 70%;
     bottom: 0%;
   }
   100% {
