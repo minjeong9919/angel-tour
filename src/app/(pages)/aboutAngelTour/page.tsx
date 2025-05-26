@@ -118,7 +118,7 @@ export default function AboutAngel() {
             가능합니다.
           </h1>
           <div className='mx-auto w-[95%] flex-center flex-col gap-4 mt-[3%] justify-between h-max'>
-            <div className='grow-1 flex flex-col justify-between bg-white z-1 shadow-2xl p-[3%] text-base rounded-lg text-left'>
+            <div className='w-full flex flex-col justify-between bg-white z-1 shadow-2xl p-[3%] text-base rounded-lg text-left'>
               <div>
                 <h3 className='font-bold text-xl mb-3 text-center'>
                   상담 문의
