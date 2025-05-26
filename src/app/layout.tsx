@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} ${JuaRegular.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${BlackHanSans.variable} ${JuaRegular.variable} antialiased bg-[#ffffff]`}
       >
         <Header />
         <FixedFooter />
