@@ -6,19 +6,20 @@ import { ImageWrapper } from "./_components/ImageWrapper";
 
 export default function AboutAngel() {
   return (
-    <main className='py-5 font-jua w-[100vw]'>
+    <main className='py-5 font-jua w-[90vw] mx-auto'>
       <ICON className='w-[100vw] fixed opacity-10' />
       <section className='flex gap-3'>
         <div className='w-[100%] text-center'>
-          <h1 className='text-xl sm:text-3xl lg:text-4xl font-bold mb-[10px]'>
+          <h1 className='text-lg sm:text-3xl lg:text-4xl font-bold mb-[10px]'>
             🌍 미얀마 여행, <strong className='text-primary'>천사 투어</strong>
             와 함께 떠나요!
           </h1>
           <br />
-          <div className='w-[90%] mx-auto text-sm sm:text-base md:text-lg lg:text-xl flex flex-col gap-10 text-center'>
+          <div className='w-[95%] mx-auto text-xs sm:text-base md:text-lg lg:text-xl flex flex-col gap-10 text-center'>
             <p>
               안녕하세요, 여행의 설렘을 더하는
-              <strong className='text-base'>{`"천사 투어"`}</strong>입니다.
+              <strong className='text-base sm:xl'> {`"천사 투어"`} </strong>
+              입니다.
               <br />
               여러분의 특별한 여행을 위해 천사 투어가 제공하는 미얀마 골프
               여행을 소개합니다.
@@ -29,8 +30,8 @@ export default function AboutAngel() {
               해외에서 치려면 더 부담되었을 거예요.
               <br />
               <br />
-              <strong className='text-lg sm:text-2xl lg:text-3xl'>
-                천사투어는 이러한 사람들에게 정말 딱 맞는 나라{" "}
+              <strong className='text-lg sm:text-2xl lg:text-3xl text-balance'>
+                천사투어는 이러한 사람들에게 딱 맞는 나라 <br />
                 <strong className='text-primary'>{`"미얀마"`}</strong>를 적극
                 추천드립니다!
               </strong>
@@ -48,8 +49,7 @@ export default function AboutAngel() {
               방문한 것으로 끝나지 않을 거예요!
             </p>
             <strong className='text-lg'>
-              그 중에서도 천사투어의 가장 큰 장점은 네이버 밴드와 카톡 단체방을
-              통한
+              그 중에서도 천사투어의 큰 장점은 네이버 밴드와 카톡 단체방을 통한
               <span className='text-lg sm:text-2xl lg:text-3xl text-primary'>
                 {" "}
                 활발한 소통!
@@ -64,10 +64,10 @@ export default function AboutAngel() {
           </div>
           <div className='w-full flex bg-primary-100 my-10 py-[5%] px-[3%] justify-between w-[90%] h-max'>
             <div className='bg-white rounded-lg p-[2%] bg-white z-1 w-[32%] min-h-[100%] shadow-2xl'>
-              <h2 className='sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
+              <h2 className='text-sm sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
                 여행 전에는
               </h2>
-              <ul className='list-[square] ml-[10px] text-xs sm:text-base lg:text-xl text-left'>
+              <ul className='list-[square] ml-[10px] text-[11px] sm:text-sm lg:text-base text-left'>
                 <li>
                   여행 일정을 미리 공유하고, 궁금한 사항들을 미리 해결해요.
                 </li>
@@ -78,10 +78,10 @@ export default function AboutAngel() {
               </ul>
             </div>
             <div className='bg-white rounded-lg p-[2%] bg-white z-1 w-[32%] min-h-full shadow-2xl'>
-              <h2 className='text-base sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
+              <h2 className='text-sm sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
                 여행 중에는
               </h2>
-              <ul className='list-[square] ml-[10px] text-xs sm:text-base lg:text-xl text-left'>
+              <ul className='list-[square] ml-[10px] text-[11px] sm:text-sm lg:text-base text-left'>
                 <li>
                   현지에서 발생하는 상황들을 실시간으로 공유하고, 여행 중 정보를
                   주고 받아요.
@@ -93,10 +93,10 @@ export default function AboutAngel() {
               </ul>
             </div>
             <div className='bg-white rounded-lg p-[2%] bg-white z-1 w-[32%] min-h-full shadow-2xl'>
-              <h2 className='text-base sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
+              <h2 className='text-sm sm:text-xl lg:text-2xl text-primary font-black mb-[4%]'>
                 여행 후에는
               </h2>
-              <ul className='list-[square] ml-[10px] text-xs sm:text-base lg:text-xl text-left'>
+              <ul className='list-[square] ml-[10px] text-[11px] sm:text-sm lg:text-base text-left'>
                 <li>
                   여행 후기도 자유롭게 공유해보며, 함께 이해하기하며 다음 여행을
                   위한 피드백을 주고받아요.
@@ -113,29 +113,29 @@ export default function AboutAngel() {
               미얀마 골프 여행은 천사투어와 함께!
             </strong>
           </p>
-          <h1 className='text-xs lg:text-xl mt-10'>
+          <h1 className='text-xs sm:text-sm lg:text-xl mt-10'>
             천사투어에 대한 더 자세한 설명과 사진 등은 밴드를 통해 확인
             가능합니다.
           </h1>
-          <div className='mx-auto w-[95%] flex-center flex-col gap-4 mt-[3%] justify-between h-max'>
-            <div className='w-full flex flex-col justify-between bg-white z-1 shadow-2xl p-[3%] text-base rounded-lg text-left'>
+          <div className='mx-auto w-[95%] flex-center flex-col md:flex-row gap-4 mt-[3%] justify-between'>
+            <div className='w-full flex flex-col justify-between bg-white z-1 shadow-2xl p-[3%] xl:p-[2%] text-sm sm:text-xl rounded-lg text-left sm:h-[200px]'>
               <div>
-                <h3 className='font-bold text-xl mb-3 text-center'>
+                <h3 className='font-bold text-base sm:text-2xl mb-3 text-center'>
                   상담 문의
                 </h3>
                 대표: 박 재 완 <br />
                 연락처: 010.9954.3891
               </div>
-              <h5 className='text-xs text-primary'>
+              <h5 className='text-[10px] sm:text-sm text-primary'>
                 * 카카오톡으로 상담을 원하시는 분은 하단의 {"톡상담"} 메뉴를
                 이용해주세요.
               </h5>
             </div>
-            <div className='flex flex-col gap-4 min-w-full justify-between min-h-full'>
+            <div className='flex flex-col gap-4 w-[100%] sm:h-[200px] justify-between'>
               <Link
                 target='_blank'
                 href='https://open.kakao.com/o/gsqdO6nh'
-                className='min-w-full bg-[#F7E600] z-1 shadow-2xl p-[4%] text-base rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-[10%] cursor-pointer text-left'
+                className='sm:h-[90px] items-center min-w-full bg-[#F7E600] z-1 shadow-2xl p-[4%] text-sm sm:text-xl rounded-lg hover:scale-[1.05] duration-500 flex align-center gap-[10%] cursor-pointer text-left'
               >
                 <KAKAO width={25} />
                 카카오톡 단톡방 참여하기 {">"}
@@ -144,9 +144,9 @@ export default function AboutAngel() {
               <Link
                 target='_blank'
                 href='https://www.band.us/band/68913058'
-                className='min-w-full bg-[#2FB14A] z-1 shadow-2xl p-[4%] text-base rounded-lg hover:scale-[1.1] duration-500 flex align-center gap-[10%] cursor-pointer text-left'
+                className='sm:h-[90px] items-center min-w-full bg-[#2FB14A] z-1 shadow-2xl p-[4%] text-sm sm:text-xl rounded-lg hover:scale-[1.05] duration-500 flex align-center gap-[10%] cursor-pointer text-left'
               >
-                <NAVER width={20} height={20} className='my-auto' />
+                <NAVER width={25} height={25} className='my-auto' />
                 네이버 밴드에 참여하기 {">"}
               </Link>
             </div>

@@ -14,34 +14,34 @@ export const ImageWrapper = () => {
 
   return (
     <div
-      className='w-full flex flex-col px-[5%] z-1 relative gap-2'
+      className='w-full flex flex-col sm:flex-row sm:justify-center px-[5%] z-1 gap-5'
       ref={target}
     >
-      <div className='max-w-[80%] mx-auto relative'>
+      <div className='max-w-[70%] sm:max-w-[33%] mx-auto sm:mx-0'>
         <Image
           src={ANGELTOUR1}
           alt='활발한 소통 사진 1'
-          className={`rounded-lg shadow-2xl top-[5%] ${
+          className={`rounded-lg shadow-2xl ${
             observe ? "animate-slide-in-blurred-top" : "hidden"
-          } hover:scale-[1.1] duration-500`}
+          } hover:scale-[1.05] duration-500`}
         />
       </div>
-      <div className='min-w-full relative'>
+      <div className='max-w-[70%] sm:max-w-[33%] mx-auto sm:mx-0'>
         <Image
           src={ANGELTOUR2}
           alt='활발한 소통 사진 2'
-          className={`max-w-[80%] mx-auto rounded-lg top-[10%] shadow-2xl ${
+          className={` rounded-lg shadow-2xl ${
             observe ? "animate-slide-in-blurred-top" : "hidden"
-          } hover:scale-[1.1] duration-500`}
+          } hover:scale-[1.05] duration-500`}
         />
       </div>
-      <div className='min-w-full max-w-[25%]'>
+      <div className='max-w-[70%] sm:max-w-[33%] mx-auto sm:mx-0'>
         <Image
           src={ANGELTOUR3}
           alt='활발한 소통 사진 3'
-          className={` max-w-[80%] mx-auto rounded-lg right-[20px] top-[10px] shadow-2xl ${
+          className={`rounded-lg shadow-2xl ${
             observe ? "animate-slide-in-blurred-top" : "hidden"
-          } hover:scale-[1.1] duration-500`}
+          } hover:scale-[1.05] duration-500`}
         />
       </div>
     </div>
