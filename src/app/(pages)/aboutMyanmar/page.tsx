@@ -4,7 +4,7 @@ import { InfoCard } from "./_components/InfoCard";
 export default function Myanmar() {
   return (
     <div>
-      <div className='w-[100vw] py-50 flex-center text-6xl bg-primary-50'>
+      <div className='w-[100vw] py-30 md:py-40 lg:py-50 flex-center text-2xl md:text-3xl lg:text-5xl bg-primary-50'>
         <h1 className='font-normal font-jua font-thin'>
           {'"'}천사투어가 <strong className='text-primary'> 미얀마</strong>를
           선택한 이유{'"'}
@@ -27,12 +27,12 @@ const CARD_DATA = [
   {
     id: 1,
     title: (
-      <h4 className='text-5xl font-extrabold mb-5'>
+      <h4 className='text-xl md:text-2xl xl:text-3xl font-extrabold mb-5'>
         🇲🇲 <strong className='text-primary'>미얀마</strong>가 어떤 곳인가요?
       </h4>
     ),
     content: (
-      <h6 className='text-lg'>
+      <h6 className='text-sm md:text-base xl:text-lg'>
         동남아시아에 위치한 나라로, 과거에는 버마(Burma)라는 이름으로
         알려져있습니다. <br />
         미얀마는 동남아시아 중에서 가장 넓은 면적을 가지고 있는 나라이며,
@@ -49,13 +49,13 @@ const CARD_DATA = [
   {
     id: 2,
     title: (
-      <h4 className='text-5xl font-extrabold mb-5 w-[100%]'>
+      <h4 className='text-xl md:text-2xl xl:text-3xl font-extrabold mb-5 w-[100%]'>
         미얀마의 과거 수도, <br />
         <strong className='text-primary'>양곤(YANGON)</strong>
       </h4>
     ),
     content: (
-      <h6 className='text-lg w-[70%] ml-auto'>
+      <h6 className='text-sm md:text-base xl:text-lg w-[70%] ml-auto'>
         미얀마 중에서도 천사투어는{" "}
         <strong className='text-primary underline'>양곤(Yangon)</strong>을
         택했는데요. <br />
@@ -70,13 +70,13 @@ const CARD_DATA = [
   {
     id: 3,
     title: (
-      <h4 className='text-5xl font-extrabold mb-5'>
+      <h4 className='text-xl md:text-2xl xl:text-3xl font-extrabold mb-5'>
         <strong className='text-primary '>⛳️ 최고 가성비 </strong>
         골프 여행지
       </h4>
     ),
     content: (
-      <h6 className='text-lg '>
+      <h6 className='text-sm md:text-base xl:text-lg'>
         골프 여행과 더불어 다양한 매력을 지닌 여행지이지만, <br /> 한국에 많이
         알려지지 않아 한국사람이 별로 없으며, 골프장의 컨디션도 좋습니다.
         <br />
@@ -89,12 +89,12 @@ const CARD_DATA = [
   {
     id: 4,
     title: (
-      <h4 className='text-5xl text-primary font-extrabold mb-5'>
+      <h4 className='text-xl md:text-2xl xl:text-3xl text-primary font-extrabold'>
         🕌 역사적 매력
       </h4>
     ),
     content: (
-      <h6 className='text-lg w-[70%] ml-auto'>
+      <h6 className='text-sm md:text-base xl:text-lg w-[70%] ml-auto'>
         미얀마는 깊은 역사와 문화를 지닌 나라입니다. <br />
         미얀마의 전통적인 건축물과 유적지를 탐방해보세요!
         <br /> 바사르 신전, 양곤의 쉐다곤 파고다, 바간의 고대 사원들 등
