@@ -5,13 +5,13 @@ export const Information = () => {
       <div className='min-w-50 flex gap-7 border-b-1 border-gray-300 py-2'>
         <span className='font-bold min-w-20'>✈️ 일정</span>
         <span>
-          2025년 OO월 OO일 ~ 2025년 OO월 OO일 <strong>(5박 6일)</strong>
+          2025년 OO월 OO일 ~ 2025년 OO월 OO일 <strong>(4박 5일)</strong>
         </span>
       </div>
       <div className='flex gap-7 border-b-1 border-gray-300 py-2'>
         <span className='font-bold min-w-20'>💵 요금</span>
         <span>
-          인당 <strong>599,000원</strong> ( 최소 출발인원: <strong>2</strong>명
+          인당 <strong>540,000원</strong> ( 최소 출발인원: <strong>2</strong>명
           )
         </span>
       </div>

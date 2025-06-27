@@ -28,9 +28,9 @@ export const Image1 = ({ imageNum }: { imageNum: number }) => {
       </div>
       <div className=' w-fit text-black z-1 p-4 rounded-2xl '>
         <h3 className='text-2xl font-light font-hans text-[#ff8000] '>
-          <strong className='text-2xl md:text-5xl'>5</strong>박
-          <strong className='text-2xl md:text-5xl'> 6</strong>일<br />
-          <strong className='text-6xl md:text-9xl'>599,000</strong> 원
+          <strong className='text-2xl md:text-5xl'>4</strong>박
+          <strong className='text-2xl md:text-5xl'> 5</strong>일<br />
+          <strong className='text-6xl md:text-9xl'>540,000</strong> 원
         </h3>
       </div>
     </figure>
