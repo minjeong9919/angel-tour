@@ -38,7 +38,7 @@ export default function TourSchedule() {
             <Schedule />
             <Note />
           </div>
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
       </section>
     </main>
