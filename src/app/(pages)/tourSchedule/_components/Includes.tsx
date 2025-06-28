@@ -3,12 +3,12 @@ import X from "@/app/_assets/icons/x.svg";
 
 export const Includes = () => {
   return (
-    <section className='mt-20 gap-5 w-[100%]'>
-      <h2 className='text-xl font-bold mb-2 border-b-2 pb-3'>
+    <section className='mt-20 gap-5 w-[100%] text-xs'>
+      <h2 className='text-lg font-bold mb-2 border-b-2 pb-3'>
         포함 / 불포함 사항
       </h2>
       <div className='min-w-50 flex gap-7 border-b-1 border-gray-300 py-3'>
-        <span className='font-bold min-w-50 flex-center gap-2 text-[#009900]'>
+        <span className='font-bold min-w-13 flex-center gap-2 text-[#009900]'>
           <Check />
           포함
         </span>
@@ -17,7 +17,7 @@ export const Includes = () => {
           <li>
             일 18홀 그린피, 전동카드(1인), 캐티피(1인 1캐디)
             <br />
-            <h3 className='text-sm'>
+            <h3>
               : 주말 성수기 시 2인 1캐디 및 2인 1캐디가 나올 수 있으며, 캐디 및
               카트 요금은 동일
             </h3>
@@ -27,7 +27,7 @@ export const Includes = () => {
         </ul>
       </div>
       <div className='flex gap-7 border-b-1 border-gray-300 py-3'>
-        <span className='font-bold min-w-50 flex-center gap-2 text-[red]'>
+        <span className='font-bold min-w-13 flex-center gap-2 text-[red]'>
           <X />
           불포함
         </span>

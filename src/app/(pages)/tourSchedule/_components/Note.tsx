@@ -1,8 +1,10 @@
 export const Note = () => {
   return (
-    <section className='mt-20 gap-5 w-[100%]'>
-      <h2 className='text-xl font-bold mb-3 border-b-2 pb-3'>참고 사항</h2>
-      <ul className='list-[square] ml-5'>
+    <section className='mt-20 gap-5 w-[100%] text-xs'>
+      <h2 className='text-base md:text-xl font-bold mb-3 border-b-2 pb-1 md:pb-3'>
+        참고 사항
+      </h2>
+      <ul className='list-[square] ml-3 md:ml-5'>
         <li>여권 만료일 6개월 이상 필수</li>
         <li>
           상기 일정은 현지 사정에 의해 변경될 수 있으며, 천재 지변 또는 개인

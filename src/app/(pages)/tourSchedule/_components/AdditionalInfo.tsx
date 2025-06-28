@@ -15,12 +15,12 @@ export const AdditionalInfo = ({
   dinner,
 }: AdditionalInfoPropsType) => {
   return (
-    <div>
-      <div className='border-y-1 border-gray-300 py-3 flex items-center gap-5'>
+    <div className='text-sm'>
+      <div className='border-y-1 border-gray-300 py-1 flex items-center gap-5'>
         <Hotel width={40} />
         <span>{hotel}</span>
       </div>
-      <div className='border-b-1 border-gray-300 py-3 flex items-center gap-5'>
+      <div className='border-b-1 border-gray-300 py-1 flex items-center gap-5'>
         <Meal width={40} />
         <span>조식 - {breakfast || "불포함"}</span>
         <span>중식 - {lunch || "불포함"}</span>
